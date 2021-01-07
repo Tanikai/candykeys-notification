@@ -1,16 +1,7 @@
 # candykeys-notification
 
-[![GPLv3 License][license-shield]][license-url]
-
-<br />
-<p align="center">
-  <h3 align="center">CandyKeys Stock Notification Service</h3>
-</p>
-
-
-<!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -59,6 +50,10 @@ to do
    ```sh
    pip install -f requirements.txt
    ```
+
+### Usage
+
+to do
 
 ## License
 
