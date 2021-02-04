@@ -62,11 +62,13 @@ try:
     else:
         DEBUG = False
 
+    INTERVAL = str(os.getenv('INTERVAL', '600'))
+
     asyncio.run(async_telegram_service(API_TOKEN, DEBUG))
     while True:
         print("Checking stock...")
         asyncio.run(async_candykeys_checker(API_TOKEN, DEBUG))
-        sleep(10)
+        sleep(int(INTERVAL))
 
 except Exception as e:
     get_module_logger(__name__).error("An Error occurred: " + e.message)
