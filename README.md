@@ -1,5 +1,7 @@
 # CandyKeys Notifications in Telegram
 
+Note: I bought my Zealios V2 switches. This means that this script will be no longer maintained.
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
